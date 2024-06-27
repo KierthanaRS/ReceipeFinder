@@ -1,3 +1,67 @@
+# RecipeFinder
+
+RecipeFinder is a web application that allows users to search for recipes based on ingredients they have. It provides a simple and intuitive interface to find delicious recipes from a variety of cuisines.
+
+## Features
+
+- **Search Recipes by Ingredients**: Enter the ingredients you have, and the app will suggest recipes you can make.
+- **Recipe Details**: View detailed instructions, ingredients, and preparation steps for each recipe.
+- **Favorites**: Save your favorite recipes for quick access later.
+- **Responsive Design**: The app works well on both desktop and mobile devices.
+
+## Technologies Used
+
+- **Frontend**: ReactJS
+
+## Installation
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/KierthanaRS/ReceipeFinder.git
+    cd ReceipeFinder
+    ```
+
+2. **Install dependencies**:
+    ```bash
+    npm install
+    ```
+
+3. **Set up environment variables**:
+    Create a `.env` file in the root directory and add your API key 
+4. **Run the application**:
+    ```bash
+    npm start
+    ```
+
+## Usage
+
+1. Open your browser and navigate to `http://localhost:3000`.
+2. Enter the ingredients you have in the search bar.
+3. Browse through the list of suggested recipes.
+4. Click on a recipe to view its details.
+5. Save your favorite recipes by clicking the "Favorite" button.
+
+## Contributing
+
+Contributions are welcome! Please follow these steps to contribute:
+
+1. Fork the repository.
+2. Create a new branch:
+    ```bash
+    git checkout -b feature/your-feature-name
+    ```
+3. Make your changes and commit them:
+    ```bash
+    git commit -m "Add some feature"
+    ```
+4. Push to the branch:
+    ```bash
+    git push origin feature/your-feature-name
+    ```
+5. Open a pull request.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
